@@ -1,0 +1,462 @@
+[
+ {
+  "id": 497108549847,
+  "handle": "accessori",
+  "title": "ACCESSORIES",
+  "description": "",
+  "updatedAt": "2026-09-19T13:26:31+10:00",
+  "productHandles": [
+   "genoveffa"
+  ]
+ },
+ {
+  "id": 492332581079,
+  "handle": "borse",
+  "title": "BAGS",
+  "description": "",
+  "updatedAt": "2026-09-19T13:21:28+10:00",
+  "productHandles": [
+   "katherine-borsa-tote-versatile",
+   "valerie-borsa-a-spalla-di-lusso",
+   "jennifer-borsa-quotidiana-senza-tempo",
+   "lisa-borsa-in-pelle-senza-tempo",
+   "catherine-borsa-a-spalla-in-pelle",
+   "blanche-borsa-di-lusso-elegante",
+   "wendy-borsa-in-pelle-con-frange",
+   "marcella-la-borsa-che-prendi-ogni-giorno"
+  ]
+ },
+ {
+  "id": 489331917015,
+  "handle": "abiti-da-spiaggia",
+  "title": "BEACH DRESSES",
+  "description": "",
+  "updatedAt": "2026-09-19T14:39:35+10:00",
+  "productHandles": [
+   "abito-casual-da-donna-con-stampa-floreale-ap",
+   "abito-casual-da-donna-con-stampa-floreale-9",
+   "vestito-casual-da-donna",
+   "abito-casual-da-donna-ricamato-s5",
+   "abito-casual-da-donna-con-stampa-floreale-7i",
+   "abito-casual-da-donna-con-stampa-floreale-jo",
+   "abito-casual-da-donna-oi",
+   "abito-casual-da-donna-con-stampa-floreale"
+  ]
+ },
+ {
+  "id": 492332351703,
+  "handle": "bluse-top",
+  "title": "BLOUSES & TOPS",
+  "description": "",
+  "updatedAt": "2026-09-27T21:21:16+10:00",
+  "productHandles": [
+   "domitilla",
+   "ruby",
+   "rachele",
+   "chiara-top-smanicato-con-scollo-a-v",
+   "apollonia-top"
+  ]
+ },
+ {
+  "id": 492333727959,
+  "handle": "salopette-abbottonata",
+  "title": "BUTTON-FRONT JUMPSUITS",
+  "description": "",
+  "updatedAt": "2026-09-19T13:20:23+10:00",
+  "productHandles": [
+   "salopette-stampata-fluida-copy-7",
+   "salopette-stampata-fluida-mk",
+   "salopette-stampata-fluida-wt",
+   "salopette-stampata-fluida-sq",
+   "salopette-stampata-fluida-bq",
+   "salopette-stampata-fluida-cu",
+   "salopette-stampata-fluida-5o",
+   "salopette-stampata-fluida-3"
+  ]
+ },
+ {
+  "id": 492332712151,
+  "handle": "cardigan",
+  "title": "CARDIGANS",
+  "description": "",
+  "updatedAt": "2026-09-19T13:26:42+10:00",
+  "productHandles": [
+   "cardigan-confortevole-con-cappuccio-in-maglia-fh",
+   "pierina",
+   "cardigan-in-maglia-confortevole-bottonato-s3",
+   "cardigan-confortevole-con-cappuccio-in-maglia-vw",
+   "cardigan-confortevole-con-cappuccio-in-maglia-yc",
+   "cardigan-confortevole-con-cappuccio-in-maglia-sb",
+   "cardigan-confortevole-con-cappuccio-in-maglia-6j",
+   "cardigan-confortevole-con-cappuccio-in-maglia-q7"
+  ]
+ },
+ {
+  "id": 492525551831,
+  "handle": "set-in-denim",
+  "title": "DENIM SETS",
+  "description": "",
+  "updatedAt": "2026-09-19T13:23:49+10:00",
+  "productHandles": [
+   "maura-abito",
+   "savannah-vintage-denim-maxi-dress",
+   "betty-short-sleeve-denim-shirt",
+   "donna-casual-elegant-denim-shirt-dress",
+   "liora-plus-size-denim-dress",
+   "moxelle-denim-overall-jumpsuit",
+   "leila-classic-ease-denim",
+   "indira-button-up-denim-dress"
+  ]
+ },
+ {
+  "id": 488160329943,
+  "handle": "abiti",
+  "title": "DRESSES",
+  "description": "",
+  "updatedAt": "2026-09-27T21:21:16+10:00",
+  "productHandles": [
+   "zenaide-tuta",
+   "zaira",
+   "lavinia1",
+   "donatella-completo",
+   "agata-abito",
+   "costanza-completo",
+   "annunziata1",
+   "carmina-abito"
+  ]
+ },
+ {
+  "id": 492333596887,
+  "handle": "abiti-casual",
+  "title": "EVERYDAY DRESSES",
+  "description": "",
+  "updatedAt": "2026-09-19T13:24:46+10:00",
+  "productHandles": [
+   "karin\u2122-everyday-comfort-dress",
+   "arianna",
+   "turchesa-abito",
+   "lies\u2122-everyday-comfort-dress",
+   "corrie\u2122-everyday-comfort-dress",
+   "reven\u2122-everyday-comfort-dress",
+   "sara\u2122-everyday-comfort-dress",
+   "reda\u2122-everyday-comfort-dress"
+  ]
+ },
+ {
+  "id": 492333301975,
+  "handle": "top-floreali",
+  "title": "FLORAL TOPS",
+  "description": "",
+  "updatedAt": "2026-09-19T13:19:40+10:00",
+  "productHandles": [
+   "amelia-camicia-a-righe-patchwork",
+   "zoe-camicia-patchwork-colorata",
+   "lena-camicia-a-strisce-color-block",
+   "zara-camicia-con-stampa-tribale",
+   "blusa-celia",
+   "nina-camicia-a-strisce-geometriche",
+   "eva-camicia-a-strisce-bold-e-color-block",
+   "blusa-stela"
+  ]
+ },
+ {
+  "id": 492334776535,
+  "handle": "tacchi",
+  "title": "HEELS",
+  "description": "",
+  "updatedAt": "2026-09-19T13:23:30+10:00",
+  "productHandles": [
+   "bravelynn-tacchi-eleganti",
+   "jamyrah-tacchi-sofisticati",
+   "veylah-tacchi-eleganti",
+   "kenzira-tacchi-moderni",
+   "daniliza-tacchi-eleganti",
+   "seraphyane-tacchi-ortopedici-q5",
+   "tacchi-in-pelle-amara",
+   "coralise-tacchi-sofisticati"
+  ]
+ },
+ {
+  "id": 492332515543,
+  "handle": "salopette",
+  "title": "JUMPSUITS",
+  "description": "",
+  "updatedAt": "2026-09-19T13:20:42+10:00",
+  "productHandles": [
+   "salopette-stampata-comoda-k3",
+   "salopette-stampata-confortevole-te",
+   "salopette-stampata-confortevole-lu",
+   "salopette-stampata-confortevole-nn",
+   "salopette-stampata-confortevole-qf",
+   "salopette-stampata-confortevole-db",
+   "salopette-stampata-confortevole-xk",
+   "salopette-stampata-comoda-fr"
+  ]
+ },
+ {
+  "id": 494530920663,
+  "handle": "ultimi-pezzi-disponibili",
+  "title": "LAST CHANCE",
+  "description": "",
+  "updatedAt": "2026-09-12T17:57:58+10:00",
+  "productHandles": []
+ },
+ {
+  "id": 492333498583,
+  "handle": "bluse-estive",
+  "title": "LIGHTWEIGHT BLOUSES",
+  "description": "",
+  "updatedAt": "2026-09-19T14:39:39+10:00",
+  "productHandles": [
+   "flaminia",
+   "andrea-blusa-elegante-estiva",
+   "rossella",
+   "gabriella-blusa-elegante-estiva",
+   "grace-blusa-elegante-estiva",
+   "veronica-blusa-elegante-estiva",
+   "catherine-blusa-elegante-estiva",
+   "axelle-blusa-elegante-estiva"
+  ]
+ },
+ {
+  "id": 492334645463,
+  "handle": "mocassini",
+  "title": "LOAFERS",
+  "description": "",
+  "updatedAt": "2026-09-19T13:22:34+10:00",
+  "productHandles": [
+   "monika-pantofola",
+   "marina-pantofole",
+   "mocassini-contessa-nodo",
+   "louna-mocassini-eleganti-con-fibbia",
+   "rita-mocassini-selvaggi",
+   "wale-mocassini-leopardo",
+   "angelique-mocassino-leopardo",
+   "elaine-mocassini-morbidi"
+  ]
+ },
+ {
+  "id": 492333007063,
+  "handle": "bluse-lunghe",
+  "title": "LONGLINE BLOUSES",
+  "description": "",
+  "updatedAt": "2026-09-19T13:19:13+10:00",
+  "productHandles": [
+   "harmony-blusa-lunga-con-scollo-a-v",
+   "naya-blusa-lunga-a-v",
+   "lilia-blusa-lunga-con-scollatura-a-v",
+   "beatrix-blusa-lunga-con-scollatura-a-v",
+   "addison-blusa-lunga-a-v",
+   "farrah-blusa-lunga-con-scollo-a-v",
+   "blaire-blusa-lunga-a-v",
+   "bernadette-blusa-lunga-con-scollo-a-v"
+  ]
+ },
+ {
+  "id": 492334907607,
+  "handle": "scarpe-mary-jane",
+  "title": "MARY JANES",
+  "description": "",
+  "updatedAt": "2026-09-19T13:23:37+10:00",
+  "productHandles": [
+   "ariyzzah-scarpe-mary-jane-ortopediche-con-tacco-basso",
+   "olyssiah-scarpe-mary-jane-ortopediche",
+   "kyrahnae-scarpe-mary-jane-con-t-strap-ortopediche",
+   "thalynah-scarpe-mary-jane-ortopediche",
+   "hyreanne-scarpe-mary-jane-ortopediche",
+   "sophyann-scarpe-mary-jane-ortopediche",
+   "elyxiana-tacchi-a-blocco-ortopedici-con-cinturino-a-t",
+   "lyxandra-scarpe-mary-jane-ortopediche"
+  ]
+ },
+ {
+  "id": 492333203671,
+  "handle": "bluse-stampate",
+  "title": "PRINTED BLOUSES",
+  "description": "",
+  "updatedAt": "2026-09-19T13:19:27+10:00",
+  "productHandles": [
+   "blusa-leggera-e-colorata-con-stampa-pq",
+   "blusa-leggera-e-colorata-con-stampa-ov",
+   "blusa-stampata-leggera-e-colorata-lg",
+   "blusa-stampata-leggera-e-colorata",
+   "blusa-leggera-e-colorata-stampata-mh",
+   "blusa-leggera-e-colorata-con-stampa-cm",
+   "blusa-leggera-e-colorata-con-stampa-xf",
+   "blusa-leggera-e-colorata-con-stampa-qx"
+  ]
+ },
+ {
+  "id": 490795794647,
+  "handle": "abiti-ampi",
+  "title": "RELAXED DRESSES",
+  "description": "",
+  "updatedAt": "2026-09-19T13:18:52+10:00",
+  "productHandles": [
+   "celestina-abito-boho-ricamato-dal-fascino-mediterraneo-verde",
+   "celestina-abito-boho-ricamato-dal-fascino-mediterraneo-guiallo",
+   "celestina-abito-boho-ricamato-dal-fascino-mediterraneo-blu",
+   "ornella-set",
+   "cosima-tuta",
+   "azzurra-set",
+   "caterina-tuta",
+   "lorenza-completo"
+  ]
+ },
+ {
+  "id": 492334743767,
+  "handle": "sandali",
+  "title": "SANDALS",
+  "description": "",
+  "updatedAt": "2026-09-19T14:39:49+10:00",
+  "productHandles": [
+   "sandali-estivi-eleganti",
+   "blessy-sandali-ortopedici",
+   "aubrey-sandali-eleganti-con-tacco",
+   "neve-sandali-con-piattaforma",
+   "paige-sandali-ortopedici-confortevoli",
+   "letizia",
+   "maxima-sandali-ortopedici-alla-moda-per-donne",
+   "avenelle-sandali-con-tacco-alto-ortopedici"
+  ]
+ },
+ {
+  "id": 492332417239,
+  "handle": "scarpe",
+  "title": "SHOES",
+  "description": "",
+  "updatedAt": "2026-09-12T17:57:48+10:00",
+  "productHandles": []
+ },
+ {
+  "id": 492920963287,
+  "handle": "abiti-corti",
+  "title": "SHORT DRESSES",
+  "description": "",
+  "updatedAt": "2026-09-27T22:48:29+10:00",
+  "productHandles": [
+   "arabella-mini-abito",
+   "elisabetta",
+   "beatrice-completo",
+   "federica-mini-abito",
+   "tiziana-mini",
+   "anita-mini-abito",
+   "flaminia-playsuit",
+   "antonella-abito"
+  ]
+ },
+ {
+  "id": 492332679383,
+  "handle": "gonna",
+  "title": "SKIRTS",
+  "description": "",
+  "updatedAt": "2026-09-19T13:26:06+10:00",
+  "productHandles": [
+   "gonna-stampata-leggera-ri",
+   "gonna-stampata-leggera-fx",
+   "gonna-stampata-leggera-x3",
+   "gonna-stampata-leggera-la",
+   "gonna-stampata-leggera-mw",
+   "gonna-stampata-leggera-om",
+   "gonna-stampata-leggera-hf",
+   "gonna-stampata-leggera-fi"
+  ]
+ },
+ {
+  "id": 492334710999,
+  "handle": "sneakers",
+  "title": "SNEAKERS",
+  "description": "",
+  "updatedAt": "2026-09-19T13:23:48+10:00",
+  "productHandles": [
+   "camilla",
+   "lea-scarpe-comode-e-leggere",
+   "grace-scarpe-ortopediche-comode",
+   "zipstep-sneakers-per-passi-alla-moda-e-senza-dolore",
+   "maica-scarpe-ortopediche",
+   "odara-scarpe-ortopediche-slip-on",
+   "maddie-sneakers-ortopediche",
+   "anzhelynna-scarpe-ortopediche"
+  ]
+ },
+ {
+  "id": 493879066839,
+  "handle": "bluse-primaverili",
+  "title": "SPRING BLOUSES",
+  "description": "",
+  "updatedAt": "2026-09-19T13:25:13+10:00",
+  "productHandles": [
+   "feline-azure-stripe-blouse",
+   "fiorine-golden-bee-blouse",
+   "freyja-artistic-pattern-blouse",
+   "filippa-pastel-grid-blouse",
+   "lynaa",
+   "floriana-tropical-blossom-blouse",
+   "fanny-patchwork-daisy-blouse",
+   "frederikke-blue-garden-blouse"
+  ]
+ },
+ {
+  "id": 490240377047,
+  "handle": "occhiali-da-sole",
+  "title": "SUNGLASSES",
+  "description": "",
+  "updatedAt": "2026-09-19T13:17:48+10:00",
+  "productHandles": [
+   "avalynne-occhiali-da-sole-sofisticati",
+   "emalynn-occhiali-da-sole-eleganti",
+   "karssyn-occhiali-da-sole-eleganti",
+   "jossalyn-occhiali-da-sole-eleganti",
+   "brynlee-occhiali-da-lettura-chic",
+   "brystahl-occhiali-da-sole-sofisticati",
+   "danyqee-occhiali-da-sole-eleganti",
+   "destinie-occhiali-da-sole-eleganti"
+  ]
+ },
+ {
+  "id": 492332646615,
+  "handle": "costumi",
+  "title": "SWIMWEAR",
+  "description": "",
+  "updatedAt": "2026-09-19T13:25:45+10:00",
+  "productHandles": [
+   "jayzelliah-set-di-bikini-elegante",
+   "janelle-bikini-a-vita-alta-righe",
+   "patrizia-insieme-tankini",
+   "sienna-costume-da-bagno-a-due-pezzi",
+   "diletta-bikini",
+   "dahlia-abito-da-bagno-elegante",
+   "anabella-bikini-style",
+   "costume-da-bagno-intero-sportivo-con-scollo-sulla-schiena"
+  ]
+ },
+ {
+  "id": 495292285143,
+  "handle": "saldi-solo-oggi",
+  "title": "TODAY ONLY",
+  "description": "",
+  "updatedAt": "2026-09-19T13:25:32+10:00",
+  "productHandles": [
+   "zenaide-tuta",
+   "agata-abito",
+   "flavia-mini-abito"
+  ]
+ },
+ {
+  "id": 492332548311,
+  "handle": "pantaloni",
+  "title": "TROUSERS",
+  "description": "",
+  "updatedAt": "2026-09-19T13:27:00+10:00",
+  "productHandles": [
+   "samanta-tuta-sportiva-smanicata-con-cappuccio-e-zip",
+   "ofelia1",
+   "milena-pantaloni-capri-cargo-a-vita-alta-con-tasche",
+   "ondina-coordinato-due-pezzi-effetto-mediterraneo",
+   "romina-shorts",
+   "pantaloni-relax-soft-meadow",
+   "cassidy-pantaloni-casual-senza-tempo",
+   "enara-pantaloni-con-coulisse-confortevoli"
+  ]
+ }
+]
