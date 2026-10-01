@@ -1,0 +1,5 @@
+:HL["/ModaJuanjo/_next/static/chunks/1d5pegk2na5r3.css","style"]
+:HL["/ModaJuanjo/_next/static/media/Outfit_Variable_latin-s.p.3l9rzm26h_u0r.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/ModaJuanjo/_next/static/media/Outfit_Variable_latin_ext-s.p.3tnx94v3g9ied.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+:HL["/ModaJuanjo/_next/static/media/TenorSans_Regular-s.p.1c6hf1hv5xfx5.woff2","font",{"crossOrigin":"","type":"font/woff2"}]
+0:{"tree":{"name":"","param":null,"prefetchHints":4112,"slots":{"children":{"name":"products","param":null,"prefetchHints":4160,"slots":{"children":{"name":"handle","param":{"type":"d","key":"veronica-blusa-elegante-estiva","siblings":[]},"prefetchHints":4192,"slots":{"children":{"name":"__PAGE__","param":null,"prefetchHints":4256,"slots":null}}}}}}},"staleTime":300,"buildId":"IIGj6O4UCOwoA25_srnLE"}

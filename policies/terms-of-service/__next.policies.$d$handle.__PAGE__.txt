@@ -1,0 +1,53 @@
+1:"$Sreact.fragment"
+2:I[22016,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],""]
+3:Tb86,<h2>TERMS OF SERVICE — MODESSAE</h2>
+<p>This website is operated by MODESSAE. By browsing or buying from us you accept these terms.</p>
+<h3>1. Using this site</h3>
+<p>You may not use our products for any unlawful purpose, or use the site in a way that breaks the laws that apply to you, including intellectual property and copyright law.</p>
+<h3>2. General conditions</h3>
+<p>We may refuse service to anyone, at any time. You may not copy, reproduce or exploit any part of the service without our written permission.</p>
+<h3>3. Accuracy of information</h3>
+<p>We work hard to keep product descriptions and images accurate, but we don't warrant that everything on the site is complete or current at all times. Colours and finishes can look slightly different depending on your screen.</p>
+<h3>4. Prices and changes</h3>
+<p>Prices may change at any time. We may update, change or suspend the service without notice.</p>
+<h3>5. Orders and processing</h3>
+<p>Orders enter automated logistics processing shortly after purchase, and some orders go through automated payment validation and fraud checks. Once an order is in packing, changes or cancellations may not be possible.</p>
+<p>Please check your items, sizes, quantities, delivery address and contact details before you pay.</p>
+<h3>6. If an item sells out after you order</h3>
+<p>Occasionally an item is no longer available by the time we pack your order. If that happens we will <strong>contact you before shipping anything</strong> and offer either an alternative of equal value at no extra cost, or a full refund. It's your choice, and nothing ships until you tell us which you want.</p>
+<h3>7. Prohibited uses</h3>
+<p>You may not use this site for unlawful activity, to infringe intellectual property, to harass or discriminate, to introduce malicious code, to harvest other people's personal data, or for obscene purposes. Breaching this may result in immediate suspension of access.</p>
+<h3>8. Liability</h3>
+<p>Nothing in these terms excludes, restricts or modifies any guarantee, right or remedy you have under the Australian Consumer Law, or under the New Zealand Consumer Guarantees Act 1993, that cannot lawfully be excluded.</p>
+<p>Subject to that, we are not liable for interruptions to the site, technical incidents outside our control, delays caused by third-party couriers, or events beyond our reasonable control.</p>
+<h3>9. Indemnity</h3>
+<p>You agree to indemnify MODESSAE against claims arising from your breach of these terms or of third-party rights.</p>
+<h3>10. Changes to these terms</h3>
+<p>We may update these terms at any time. Continuing to use the site means you accept the published version.</p>
+<h3>11. Governing law</h3>
+<p>These terms are governed by the laws of Australia. If you are a consumer in New Zealand, nothing in this clause deprives you of the protection of New Zealand consumer law.</p>
+<h3>12. Contact</h3>
+<p><strong>info@modessae.com</strong></p>6:X
+b:X
+b:C
+0:{"buildId":"IIGj6O4UCOwoA25_srnLE","data":[{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"container-site grid gap-10 pb-20 pt-10 lg:grid-cols-12 lg:pb-32 lg:pt-16","children":[["$","aside",null,{"className":"lg:col-span-3","children":[["$","h1",null,{"className":"display-md","children":"Terms of service"}],["$","nav",null,{"aria-label":"Policies","className":"mt-8 lg:sticky lg:top-32","children":["$","ul",null,{"className":"flex flex-wrap gap-x-5 gap-y-2 text-sm lg:flex-col lg:gap-3","children":[["$","li","/policies/privacy-policy",{"children":["$","$L2",null,{"href":"/policies/privacy-policy","className":"link-line text-ink-mute hover:text-ink","children":"Privacy policy"}]}],["$","li","/policies/refund-policy",{"children":["$","$L2",null,{"href":"/policies/refund-policy","className":"link-line text-ink-mute hover:text-ink","children":"Refund policy"}]}],["$","li","/policies/shipping-policy",{"children":["$","$L2",null,{"href":"/policies/shipping-policy","className":"link-line text-ink-mute hover:text-ink","children":"Shipping policy"}]}],["$","li","/policies/terms-of-service",{"children":["$","$L2",null,{"href":"/policies/terms-of-service","aria-current":"page","className":"link-line text-ink","children":"Terms of service"}]}]]}]}]]}],["$","div",null,{"className":"prose-store text-ink-soft lg:col-span-7 lg:col-start-5","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"isPartial":"$@5","staleTime":"$6","varyParams":null},{"rsc":"$L7","isPartial":"$@8","staleTime":"$6","varyParams":null},{"rsc":"$L9","isPartial":"$@a","staleTime":"$6","varyParams":"$b"},{"rsc":"$Lc","isPartial":"$@d","staleTime":"$6","varyParams":"$b"}],"isUpgradeableISRFallback":false,"a":"$@e","rootVaryParams":null,"needsRuntimeRequest":"$@f"}
+10:I[97367,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],"OutletBoundary"]
+11:"$Sreact.suspense"
+13:I[97367,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],"ViewportBoundary"]
+14:I[97367,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],"MetadataBoundary"]
+15:I[27201,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],"IconMark"]
+16:I[39756,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],"default"]
+17:I[37457,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],"default"]
+4:["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]
+7:["$","$1","h",{"children":[null,["$","$L13",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#e8dcca"}],["$","meta","3",{"name":"color-scheme","content":"light"}]]}],["$","div",null,{"hidden":true,"children":["$","$L14",null,{"children":["$","$11",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Terms of service | MODESSAE"}],["$","meta","1",{"name":"description","content":"MODESSAE terms of service."}],["$","meta","2",{"property":"og:title","content":"Terms of service | MODESSAE"}],["$","meta","3",{"property":"og:description","content":"MODESSAE terms of service."}],["$","meta","4",{"property":"og:site_name","content":"MODESSAE"}],["$","meta","5",{"property":"og:locale","content":"en_AU"}],["$","meta","6",{"property":"og:image","content":"https://modessae.com/ModaJuanjo/images/hero.jpg"}],["$","meta","7",{"property":"og:image:width","content":"2000"}],["$","meta","8",{"property":"og:image:height","content":"1493"}],["$","meta","9",{"property":"og:image:alt","content":"Helen and Jess in the MODESSAE boutique"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Terms of service | MODESSAE"}],["$","meta","13",{"name":"twitter:description","content":"MODESSAE terms of service."}],["$","meta","14",{"name":"twitter:image","content":"https://modessae.com/ModaJuanjo/images/hero.jpg"}],["$","meta","15",{"name":"twitter:image:alt","content":"Helen and Jess in the MODESSAE boutique"}],["$","meta","16",{"name":"twitter:image:width","content":"2000"}],["$","meta","17",{"name":"twitter:image:height","content":"1493"}],["$","link","18",{"rel":"icon","href":"/ModaJuanjo/icon.png?icon.2niybt8cbem_-.png","sizes":"512x512","type":"image/png"}],["$","link","19",{"rel":"apple-touch-icon","href":"/ModaJuanjo/apple-icon.png?apple-icon.07eiuy9cnzne0.png","sizes":"180x180","type":"image/png"}],["$","$L15","20",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+9:["$","$1","c",{"children":[null,["$","$L16",null,{"parallelRouterKey":"children","template":["$","$L17",null,{}]}]]}]
+c:["$","$1","c",{"children":[null,["$","$L16",null,{"parallelRouterKey":"children","template":["$","$L17",null,{}]}]]}]
+f:true
+12:null
+6:300
+6:C
+e:0
+8:"$undefined"
+a:"$undefined"
+d:"$undefined"
+5:"$undefined"

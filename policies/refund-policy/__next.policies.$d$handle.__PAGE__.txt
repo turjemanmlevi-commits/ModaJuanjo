@@ -1,0 +1,60 @@
+1:"$Sreact.fragment"
+2:I[22016,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],""]
+3:Tb2b,<h2>RETURNS &amp; REFUNDS — MODESSAE</h2>
+<p>We want you to love what you ordered. If something isn't right, here's exactly how it works.</p>
+<h3>1. Your rights as a consumer</h3>
+<p>Our goods come with guarantees that cannot be excluded under the Australian Consumer Law, and under the New Zealand Consumer Guarantees Act 1993 if you are shopping from New Zealand. Nothing in this policy limits those rights.</p>
+<p>You are entitled to a replacement or refund for a <strong>major failure</strong> — for example, if an item is significantly different from its description, is unsafe, or has a problem that would have stopped you buying it had you known. For a major failure, <strong>you choose</strong> between a refund, a replacement, or keeping the item and being compensated for the drop in value.</p>
+<p>For a <strong>minor problem</strong> that can be fixed, we may choose to repair, replace or refund.</p>
+<p>Where an item is faulty, damaged on arrival, or not as described, <strong>we pay the return postage</strong>. You will never be out of pocket for our mistake.</p>
+<h3>2. Change of mind returns</h3>
+<p>We also accept returns simply because you changed your mind, within <strong>30 days</strong> of delivery. For change-of-mind returns:</p>
+<ol>
+<li>The item must be unworn, unwashed, with tags attached and in its original condition.</li>
+<li>Swimwear and intimates must have the hygiene liner in place.</li>
+<li>The cost of return postage is yours.</li>
+<li>Once we receive and check the item, we refund the item price. Original delivery charges are not refunded on change-of-mind returns.</li>
+</ol>
+<p>These change-of-mind terms are offered in addition to your rights under the Australian Consumer Law and the New Zealand Consumer Guarantees Act 1993, not instead of them.</p>
+<h3>3. How to start a return</h3>
+<p>Email us at <strong>info@modessae.com</strong> with:</p>
+<ul>
+<li>Your order number</li>
+<li>The reason for the return</li>
+<li>A photo, if the item is faulty or damaged</li>
+<li>Your full name and address</li>
+</ul>
+<p>We'll reply with the return address. Please don't post anything back before you hear from us — the address on the parcel you received is not our returns address.</p>
+<h3>4. Refund timing</h3>
+<ul>
+<li>We check returns within 7 business days of receiving them.</li>
+<li>Refunds go back to the original payment method.</li>
+<li>Refunds are processed within 14 days of approval. Your bank may take a few days more to show it.</li>
+</ul>
+<h3>5. Cancelling an order</h3>
+<p>Orders move into packing quickly. If you need to cancel, email us within <strong>2 hours</strong> of ordering and we'll stop it if we can. After that the order may already be on its way, and you'll need to wait for it to arrive and then start a return.</p>
+<h3>6. Questions</h3>
+<p><strong>info@modessae.com</strong></p>6:X
+b:X
+b:C
+0:{"buildId":"IIGj6O4UCOwoA25_srnLE","data":[{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"container-site grid gap-10 pb-20 pt-10 lg:grid-cols-12 lg:pb-32 lg:pt-16","children":[["$","aside",null,{"className":"lg:col-span-3","children":[["$","h1",null,{"className":"display-md","children":"Refund policy"}],["$","nav",null,{"aria-label":"Policies","className":"mt-8 lg:sticky lg:top-32","children":["$","ul",null,{"className":"flex flex-wrap gap-x-5 gap-y-2 text-sm lg:flex-col lg:gap-3","children":[["$","li","/policies/privacy-policy",{"children":["$","$L2",null,{"href":"/policies/privacy-policy","className":"link-line text-ink-mute hover:text-ink","children":"Privacy policy"}]}],["$","li","/policies/refund-policy",{"children":["$","$L2",null,{"href":"/policies/refund-policy","aria-current":"page","className":"link-line text-ink","children":"Refund policy"}]}],["$","li","/policies/shipping-policy",{"children":["$","$L2",null,{"href":"/policies/shipping-policy","className":"link-line text-ink-mute hover:text-ink","children":"Shipping policy"}]}],["$","li","/policies/terms-of-service",{"children":["$","$L2",null,{"href":"/policies/terms-of-service","className":"link-line text-ink-mute hover:text-ink","children":"Terms of service"}]}]]}]}]]}],["$","div",null,{"className":"prose-store text-ink-soft lg:col-span-7 lg:col-start-5","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,"$L4"]}],"isPartial":"$@5","staleTime":"$6","varyParams":null},{"rsc":"$L7","isPartial":"$@8","staleTime":"$6","varyParams":null},{"rsc":"$L9","isPartial":"$@a","staleTime":"$6","varyParams":"$b"},{"rsc":"$Lc","isPartial":"$@d","staleTime":"$6","varyParams":"$b"}],"isUpgradeableISRFallback":false,"a":"$@e","rootVaryParams":null,"needsRuntimeRequest":"$@f"}
+10:I[97367,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],"OutletBoundary"]
+11:"$Sreact.suspense"
+13:I[97367,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],"ViewportBoundary"]
+14:I[97367,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],"MetadataBoundary"]
+15:I[27201,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],"IconMark"]
+16:I[39756,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],"default"]
+17:I[37457,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],"default"]
+4:["$","$L10",null,{"children":["$","$11",null,{"name":"Next.MetadataOutlet","children":"$@12"}]}]
+7:["$","$1","h",{"children":[null,["$","$L13",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#e8dcca"}],["$","meta","3",{"name":"color-scheme","content":"light"}]]}],["$","div",null,{"hidden":true,"children":["$","$L14",null,{"children":["$","$11",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Refund policy | MODESSAE"}],["$","meta","1",{"name":"description","content":"MODESSAE refund policy."}],["$","meta","2",{"property":"og:title","content":"Refund policy | MODESSAE"}],["$","meta","3",{"property":"og:description","content":"MODESSAE refund policy."}],["$","meta","4",{"property":"og:site_name","content":"MODESSAE"}],["$","meta","5",{"property":"og:locale","content":"en_AU"}],["$","meta","6",{"property":"og:image","content":"https://modessae.com/ModaJuanjo/images/hero.jpg"}],["$","meta","7",{"property":"og:image:width","content":"2000"}],["$","meta","8",{"property":"og:image:height","content":"1493"}],["$","meta","9",{"property":"og:image:alt","content":"Helen and Jess in the MODESSAE boutique"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Refund policy | MODESSAE"}],["$","meta","13",{"name":"twitter:description","content":"MODESSAE refund policy."}],["$","meta","14",{"name":"twitter:image","content":"https://modessae.com/ModaJuanjo/images/hero.jpg"}],["$","meta","15",{"name":"twitter:image:alt","content":"Helen and Jess in the MODESSAE boutique"}],["$","meta","16",{"name":"twitter:image:width","content":"2000"}],["$","meta","17",{"name":"twitter:image:height","content":"1493"}],["$","link","18",{"rel":"icon","href":"/ModaJuanjo/icon.png?icon.2niybt8cbem_-.png","sizes":"512x512","type":"image/png"}],["$","link","19",{"rel":"apple-touch-icon","href":"/ModaJuanjo/apple-icon.png?apple-icon.07eiuy9cnzne0.png","sizes":"180x180","type":"image/png"}],["$","$L15","20",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+9:["$","$1","c",{"children":[null,["$","$L16",null,{"parallelRouterKey":"children","template":["$","$L17",null,{}]}]]}]
+c:["$","$1","c",{"children":[null,["$","$L16",null,{"parallelRouterKey":"children","template":["$","$L17",null,{}]}]]}]
+f:true
+12:null
+6:300
+6:C
+e:0
+8:"$undefined"
+a:"$undefined"
+d:"$undefined"
+5:"$undefined"

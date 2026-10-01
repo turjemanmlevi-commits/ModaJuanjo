@@ -1,0 +1,51 @@
+1:"$Sreact.fragment"
+2:I[22016,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],""]
+4:I[97367,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],"OutletBoundary"]
+5:"$Sreact.suspense"
+3:T836,<h2>SHIPPING — MODESSAE</h2>
+<p>We ship to addresses across Australia and New Zealand.</p>
+<h3>1. Delivery times</h3>
+<p>Orders are packed within <strong>1–2 business days</strong>. Once your parcel is on its way you'll get an email with tracking.</p>
+<ul>
+<li>
+<strong>Sydney, Melbourne, Brisbane, Adelaide, Perth and surrounds:</strong> 7–12 business days</li>
+<li>
+<strong>Auckland, Wellington, Christchurch and surrounds:</strong> 8–14 business days</li>
+<li>
+<strong>Regional and remote areas (Australia and New Zealand):</strong> 10–16 business days</li>
+</ul>
+<p>These are estimates, not guarantees. Customs, weather and courier delays are outside our control, and peak periods add a few days.</p>
+<h3>2. Shipping costs</h3>
+<p>Shipping is calculated at checkout before you pay, so there are no surprises. Any promotional free-shipping threshold is shown on the website at the time.</p>
+<h3>3. Where we ship from</h3>
+<p>Our items are dispatched from our supplier's warehouse. This keeps our prices where they are, and it's why delivery takes longer than a local warehouse would. We'd rather tell you that upfront than have you wonder where your parcel is.</p>
+<h3>4. Duties and GST</h3>
+<p>Any GST payable is included in the price shown at checkout — 10% in Australia, 15% in New Zealand. You won't be asked for extra on delivery.</p>
+<h3>5. Tracking</h3>
+<p>Your tracking link can take <strong>3–5 business days</strong> to start updating after you receive it. That's normal and doesn't mean anything is wrong.</p>
+<h3>6. Wrong address</h3>
+<p>Please check your address carefully at checkout. If a parcel is returned to us because the address was wrong or nobody could receive it, we'll contact you to arrange redelivery. Redelivery postage is at your cost.</p>
+<h3>7. Lost or damaged in transit</h3>
+<p>If your parcel doesn't arrive, or arrives damaged, email us at <strong>info@modessae.com</strong> with your order number. We'll sort it out — this sits under the consumer guarantees, so it's on us.</p>
+<h3>8. Questions</h3>
+<p><strong>info@modessae.com</strong></p>8:X
+d:X
+d:C
+0:{"buildId":"IIGj6O4UCOwoA25_srnLE","data":[{"rsc":["$","$1","c",{"children":[["$","div",null,{"className":"container-site grid gap-10 pb-20 pt-10 lg:grid-cols-12 lg:pb-32 lg:pt-16","children":[["$","aside",null,{"className":"lg:col-span-3","children":[["$","h1",null,{"className":"display-md","children":"Shipping policy"}],["$","nav",null,{"aria-label":"Policies","className":"mt-8 lg:sticky lg:top-32","children":["$","ul",null,{"className":"flex flex-wrap gap-x-5 gap-y-2 text-sm lg:flex-col lg:gap-3","children":[["$","li","/policies/privacy-policy",{"children":["$","$L2",null,{"href":"/policies/privacy-policy","className":"link-line text-ink-mute hover:text-ink","children":"Privacy policy"}]}],["$","li","/policies/refund-policy",{"children":["$","$L2",null,{"href":"/policies/refund-policy","className":"link-line text-ink-mute hover:text-ink","children":"Refund policy"}]}],["$","li","/policies/shipping-policy",{"children":["$","$L2",null,{"href":"/policies/shipping-policy","aria-current":"page","className":"link-line text-ink","children":"Shipping policy"}]}],["$","li","/policies/terms-of-service",{"children":["$","$L2",null,{"href":"/policies/terms-of-service","className":"link-line text-ink-mute hover:text-ink","children":"Terms of service"}]}]]}]}]]}],["$","div",null,{"className":"prose-store text-ink-soft lg:col-span-7 lg:col-start-5","dangerouslySetInnerHTML":{"__html":"$3"}}]]}],null,["$","$L4",null,{"children":["$","$5",null,{"name":"Next.MetadataOutlet","children":"$@6"}]}]]}],"isPartial":"$@7","staleTime":"$8","varyParams":null},{"rsc":"$L9","isPartial":"$@a","staleTime":"$8","varyParams":null},{"rsc":"$Lb","isPartial":"$@c","staleTime":"$8","varyParams":"$d"},{"rsc":"$Le","isPartial":"$@f","staleTime":"$8","varyParams":"$d"}],"isUpgradeableISRFallback":false,"a":"$@10","rootVaryParams":null,"needsRuntimeRequest":"$@11"}
+12:I[97367,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],"ViewportBoundary"]
+13:I[97367,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],"MetadataBoundary"]
+14:I[27201,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],"IconMark"]
+15:I[39756,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],"default"]
+16:I[37457,["/ModaJuanjo/_next/static/chunks/0h2qsuyze9ds1.js","/ModaJuanjo/_next/static/chunks/1mc4z-q9ai0qg.js","/ModaJuanjo/_next/static/chunks/39diawh2fty3y.js","/ModaJuanjo/_next/static/chunks/3tev6ofulue7h.js","/ModaJuanjo/_next/static/chunks/2feaynp_0w3vl.js"],"default"]
+6:null
+9:["$","$1","h",{"children":[null,["$","$L12",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}],["$","meta","2",{"name":"theme-color","content":"#e8dcca"}],["$","meta","3",{"name":"color-scheme","content":"light"}]]}],["$","div",null,{"hidden":true,"children":["$","$L13",null,{"children":["$","$5",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"Shipping policy | MODESSAE"}],["$","meta","1",{"name":"description","content":"MODESSAE shipping policy."}],["$","meta","2",{"property":"og:title","content":"Shipping policy | MODESSAE"}],["$","meta","3",{"property":"og:description","content":"MODESSAE shipping policy."}],["$","meta","4",{"property":"og:site_name","content":"MODESSAE"}],["$","meta","5",{"property":"og:locale","content":"en_AU"}],["$","meta","6",{"property":"og:image","content":"https://modessae.com/ModaJuanjo/images/hero.jpg"}],["$","meta","7",{"property":"og:image:width","content":"2000"}],["$","meta","8",{"property":"og:image:height","content":"1493"}],["$","meta","9",{"property":"og:image:alt","content":"Helen and Jess in the MODESSAE boutique"}],["$","meta","10",{"property":"og:type","content":"website"}],["$","meta","11",{"name":"twitter:card","content":"summary_large_image"}],["$","meta","12",{"name":"twitter:title","content":"Shipping policy | MODESSAE"}],["$","meta","13",{"name":"twitter:description","content":"MODESSAE shipping policy."}],["$","meta","14",{"name":"twitter:image","content":"https://modessae.com/ModaJuanjo/images/hero.jpg"}],["$","meta","15",{"name":"twitter:image:alt","content":"Helen and Jess in the MODESSAE boutique"}],["$","meta","16",{"name":"twitter:image:width","content":"2000"}],["$","meta","17",{"name":"twitter:image:height","content":"1493"}],["$","link","18",{"rel":"icon","href":"/ModaJuanjo/icon.png?icon.2niybt8cbem_-.png","sizes":"512x512","type":"image/png"}],["$","link","19",{"rel":"apple-touch-icon","href":"/ModaJuanjo/apple-icon.png?apple-icon.07eiuy9cnzne0.png","sizes":"180x180","type":"image/png"}],["$","$L14","20",{}]]}]}]}],["$","meta",null,{"name":"next-size-adjust","content":""}]]}]
+b:["$","$1","c",{"children":[null,["$","$L15",null,{"parallelRouterKey":"children","template":["$","$L16",null,{}]}]]}]
+e:["$","$1","c",{"children":[null,["$","$L15",null,{"parallelRouterKey":"children","template":["$","$L16",null,{}]}]]}]
+11:true
+8:300
+8:C
+10:0
+a:"$undefined"
+c:"$undefined"
+f:"$undefined"
+7:"$undefined"
