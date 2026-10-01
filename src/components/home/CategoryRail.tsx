@@ -2,7 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { shopifyImage } from "@/lib/format";
-import { Reveal } from "@/components/ui/Reveal";
+import { Reveal, RevealWords } from "@/components/ui/Reveal";
 
 export type CategoryTile = {
   handle: string;
@@ -16,9 +16,7 @@ export function CategoryRail({ tiles }: { tiles: CategoryTile[] }) {
     <section className="py-16 lg:py-24" aria-labelledby="categories-heading">
       <div className="container-site">
         <Reveal className="flex items-end justify-between gap-6">
-          <h2 id="categories-heading" className="display-md uppercase">
-            Shop the final collection
-          </h2>
+          <RevealWords id="categories-heading" text="Shop the final collection" className="display-md uppercase" />
           <Link href="/collections" className="hidden items-center gap-2 text-sm sm:inline-flex">
             <span className="link-line">All categories</span>
             <ArrowRight size={14} weight="regular" />

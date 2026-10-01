@@ -3,7 +3,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { STORY_PAGE } from "@/content/site";
-import { Reveal, RevealLines } from "@/components/ui/Reveal";
+import { Reveal, RevealLines, RevealWords } from "@/components/ui/Reveal";
+import { ImageReveal } from "@/components/ui/ImageReveal";
 
 export const metadata: Metadata = {
   title: "Our Story",
@@ -23,7 +24,7 @@ export default function StoryPage() {
         </div>
         <Reveal delay={0.15} className="lg:col-span-6 lg:col-start-7">
           <div className="tray">
-            <div className="relative overflow-hidden" style={{ aspectRatio: "1 / 1" }}>
+            <ImageReveal direction="right" style={{ aspectRatio: "1 / 1" }}>
               <Image
                 src="/images/boutique-front.jpg"
                 alt="Helen and Jess at the door of the MODESSAE boutique in Paddington"
@@ -32,7 +33,7 @@ export default function StoryPage() {
                 sizes="(min-width: 1024px) 50vw, 100vw"
                 className="object-cover"
               />
-            </div>
+            </ImageReveal>
           </div>
         </Reveal>
       </header>
@@ -51,7 +52,7 @@ export default function StoryPage() {
         <div className="container-site grid gap-10 py-16 lg:grid-cols-12 lg:py-28">
           <Reveal className="lg:col-span-5">
             <div className="tray rotate-[-1.5deg]">
-              <div className="relative overflow-hidden" style={{ aspectRatio: "1 / 1" }}>
+              <ImageReveal direction="up" style={{ aspectRatio: "1 / 1" }}>
                 <Image
                   src="/images/boutique-inside.jpg"
                   alt="Inside the boutique: Helen fitting sandals for a customer while Jess hangs a dress"
@@ -59,13 +60,11 @@ export default function StoryPage() {
                   sizes="(min-width: 1024px) 40vw, 100vw"
                   className="object-cover"
                 />
-              </div>
+              </ImageReveal>
             </div>
           </Reveal>
           <div className="flex items-center lg:col-span-6 lg:col-start-7">
-            <Reveal delay={0.1}>
-              <p className="display-md">“{STORY_PAGE.pullQuote}”</p>
-            </Reveal>
+            <RevealWords as="p" text={`“${STORY_PAGE.pullQuote}”`} className="display-md" />
           </div>
         </div>
       </div>

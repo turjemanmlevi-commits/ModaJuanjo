@@ -73,9 +73,20 @@ export function CartDrawer() {
             ) : (
               <>
                 <div className="flex-1 divide-y divide-line overflow-y-auto px-6">
-                  {cart.lines.map((line) => (
-                    <CartLineItem key={line.variantId} line={line} compact />
-                  ))}
+                  <AnimatePresence initial={false}>
+                    {cart.lines.map((line, i) => (
+                      <motion.div
+                        key={line.variantId}
+                        layout
+                        initial={reduce ? false : { opacity: 0, x: 24 }}
+                        animate={{ opacity: 1, x: 0 }}
+                        exit={{ opacity: 0, x: 24, height: 0 }}
+                        transition={{ duration: 0.45, delay: i * 0.04, ease: [0.16, 1, 0.3, 1] }}
+                      >
+                        <CartLineItem line={line} compact />
+                      </motion.div>
+                    ))}
+                  </AnimatePresence>
                 </div>
                 <footer className="border-t border-line bg-paper px-6 pb-6 pt-5">
                   {saved > 0 && (

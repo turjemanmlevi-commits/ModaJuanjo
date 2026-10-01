@@ -6,6 +6,7 @@ import { useRef } from "react";
 import { motion, useReducedMotion, useScroll, useTransform } from "motion/react";
 import { ArrowRight } from "@phosphor-icons/react";
 import { HERO } from "@/content/site";
+import { Magnetic } from "@/components/ui/Magnetic";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
@@ -46,7 +47,20 @@ export function Hero() {
             transition={{ duration: 1, delay: 0.5, ease: EASE }}
           >
             <span className="text-lg tracking-[0.14em] sm:text-xl">Everything</span>
-            <span className="leading-none text-[clamp(3.5rem,2rem+5vw,6.5rem)]">50% off</span>
+            <span className="flex leading-none text-[clamp(3.5rem,2rem+5vw,6.5rem)]" aria-label="50% off">
+              {["5", "0", "%", "\u00a0", "o", "f", "f"].map((ch, i) => (
+                <span key={i} className="inline-block overflow-hidden pb-[0.06em] -mb-[0.06em]" aria-hidden="true">
+                  <motion.span
+                    className="inline-block"
+                    initial={reduce ? false : { y: "110%", rotate: 6 }}
+                    animate={{ y: 0, rotate: 0 }}
+                    transition={{ duration: 1.1, delay: 0.55 + i * 0.045, ease: EASE }}
+                  >
+                    {ch}
+                  </motion.span>
+                </span>
+              ))}
+            </span>
           </motion.p>
 
           <motion.div
@@ -55,22 +69,29 @@ export function Hero() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.9, delay: 0.7, ease: EASE }}
           >
-            <Link href={HERO.ctaHref} className="btn btn-primary">
-              {HERO.cta}
-              <span className="btn-icon">
-                <ArrowRight size={14} weight="bold" />
-              </span>
-            </Link>
+            <Magnetic>
+              <Link href={HERO.ctaHref} className="btn btn-primary">
+                {HERO.cta}
+                <span className="btn-icon">
+                  <ArrowRight size={14} weight="bold" />
+                </span>
+              </Link>
+            </Magnetic>
           </motion.div>
         </motion.div>
 
-        <div className="relative order-1 min-h-[62vw] overflow-hidden lg:order-2 lg:col-span-7 lg:min-h-0">
+        <motion.div
+          className="relative order-1 min-h-[62vw] overflow-hidden lg:order-2 lg:col-span-7 lg:min-h-0"
+          initial={reduce ? false : { clipPath: "inset(0 0 0 100%)" }}
+          animate={{ clipPath: "inset(0 0 0 0%)" }}
+          transition={{ duration: 1.4, delay: 0.1, ease: [0.76, 0, 0.24, 1] }}
+        >
           <motion.div
             className="absolute inset-0"
             style={{ y: imageY, scale: imageScale }}
-            initial={reduce ? false : { scale: 1.08, opacity: 0 }}
-            animate={{ scale: 1, opacity: 1 }}
-            transition={{ duration: 1.6, ease: EASE }}
+            initial={reduce ? false : { scale: 1.22 }}
+            animate={{ scale: 1 }}
+            transition={{ duration: 2, ease: EASE }}
           >
             <Image
               src="/images/hero.jpg"
@@ -82,7 +103,7 @@ export function Hero() {
             />
           </motion.div>
           <div className="pointer-events-none absolute inset-x-0 bottom-0 h-24 bg-gradient-to-t from-beige-light/60 to-transparent lg:hidden" />
-        </div>
+        </motion.div>
       </div>
     </section>
   );

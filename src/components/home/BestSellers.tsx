@@ -2,7 +2,7 @@ import Link from "next/link";
 import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import type { ProductCard as ProductCardType } from "@/lib/types";
 import { ProductCard } from "@/components/product/ProductCard";
-import { Reveal } from "@/components/ui/Reveal";
+import { Reveal, RevealWords } from "@/components/ui/Reveal";
 import { BEST_SELLERS_TITLE } from "@/content/site";
 
 export function BestSellers({ products }: { products: ProductCardType[] }) {
@@ -12,9 +12,7 @@ export function BestSellers({ products }: { products: ProductCardType[] }) {
     <section className="border-t border-line py-16 lg:py-24" aria-labelledby="best-sellers-heading">
       <div className="container-site">
         <Reveal className="flex flex-col gap-4 sm:flex-row sm:items-end sm:justify-between">
-          <h2 id="best-sellers-heading" className="display-md uppercase">
-            {BEST_SELLERS_TITLE}
-          </h2>
+          <RevealWords id="best-sellers-heading" text={BEST_SELLERS_TITLE} className="display-md uppercase" />
           <Link href="/collections/abiti" className="inline-flex items-center gap-2 text-sm">
             <span className="link-line">View all dresses</span>
             <ArrowRight size={14} weight="regular" />

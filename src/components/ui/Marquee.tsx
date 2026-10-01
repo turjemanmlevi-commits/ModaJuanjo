@@ -4,8 +4,8 @@ import type { ReactNode } from "react";
 export function Marquee({ items, className = "" }: { items: ReactNode[]; className?: string }) {
   const row = [...items, ...items];
   return (
-    <div className={`overflow-hidden ${className}`} aria-hidden="true">
-      <div className="flex w-max animate-marquee motion-reduce:animate-none">
+    <div className={`group overflow-hidden ${className}`} aria-hidden="true">
+      <div className="flex w-max animate-marquee [animation-play-state:running] group-hover:[animation-play-state:paused] motion-reduce:animate-none">
         {row.map((item, i) => (
           <span key={i} className="flex items-center gap-8 pr-8">
             <span className="label whitespace-nowrap">{item}</span>

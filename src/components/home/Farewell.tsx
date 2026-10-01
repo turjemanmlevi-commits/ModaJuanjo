@@ -4,7 +4,8 @@ import Image from "next/image";
 import { useRef } from "react";
 import { motion, useReducedMotion, useScroll, useTransform } from "motion/react";
 import { FAREWELL } from "@/content/site";
-import { Reveal } from "@/components/ui/Reveal";
+import { Reveal, RevealWords } from "@/components/ui/Reveal";
+import { ImageReveal } from "@/components/ui/ImageReveal";
 
 export function Farewell() {
   const ref = useRef<HTMLElement>(null);
@@ -19,7 +20,7 @@ export function Farewell() {
         <div className="relative lg:col-span-6">
           <div className="relative mx-auto max-w-md lg:max-w-none">
             <motion.div style={{ y: backY }} className="tray w-[78%] rotate-[-2deg]">
-              <div className="relative overflow-hidden" style={{ aspectRatio: "1 / 1" }}>
+              <ImageReveal direction="left" style={{ aspectRatio: "1 / 1" }}>
                 <Image
                   src="/images/boutique-front.jpg"
                   alt="Helen and Jess at the door of the MODESSAE boutique"
@@ -27,13 +28,13 @@ export function Farewell() {
                   sizes="(min-width: 1024px) 38vw, 80vw"
                   className="object-cover"
                 />
-              </div>
+              </ImageReveal>
             </motion.div>
             <motion.div
               style={{ y: frontY }}
               className="tray absolute -bottom-10 right-0 w-[60%] rotate-[2.5deg] lg:-bottom-14"
             >
-              <div className="relative overflow-hidden" style={{ aspectRatio: "1 / 1" }}>
+              <ImageReveal direction="up" delay={0.25} style={{ aspectRatio: "1 / 1" }}>
                 <Image
                   src="/images/boutique-inside.jpg"
                   alt="Inside the boutique: Helen helping a customer try on sandals while Jess hangs a dress"
@@ -41,17 +42,13 @@ export function Farewell() {
                   sizes="(min-width: 1024px) 30vw, 60vw"
                   className="object-cover"
                 />
-              </div>
+              </ImageReveal>
             </motion.div>
           </div>
         </div>
 
         <div className="pt-8 lg:col-span-5 lg:col-start-8 lg:pt-4">
-          <Reveal>
-            <h2 id="farewell-heading" className="display-md">
-              {FAREWELL.title}
-            </h2>
-          </Reveal>
+          <RevealWords id="farewell-heading" text={FAREWELL.title} className="display-md" />
           <div className="prose-store mt-8 space-y-5 text-ink-soft">
             {FAREWELL.paragraphs.map((p, i) => (
               <Reveal key={i} delay={0.05 + i * 0.05} y={18}>

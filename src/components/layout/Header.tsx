@@ -4,7 +4,7 @@ import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useCallback, useEffect, useRef, useState } from "react";
-import { AnimatePresence, motion, useReducedMotion } from "motion/react";
+import { AnimatePresence, motion, useMotionValueEvent, useReducedMotion, useScroll } from "motion/react";
 import { CaretDown, Handbag, List, MagnifyingGlass, User } from "@phosphor-icons/react";
 import { MAIN_MENU, STORE, type MenuItem } from "@/lib/menu";
 import { useCart } from "@/components/cart/CartProvider";
@@ -27,6 +27,15 @@ export function Header({ previews }: { previews: MenuPreviews }) {
   const [bump, setBump] = useState(false);
   const timer = useRef<number | null>(null);
   const prevCount = useRef(cart.count);
+  const [hidden, setHidden] = useState(false);
+  const { scrollY } = useScroll();
+  const lastY = useRef(0);
+  useMotionValueEvent(scrollY, "change", (y) => {
+    const goingDown = y > lastY.current;
+    const shouldHide = goingDown && y > 160 && !active && !ui.menuOpen;
+    if (shouldHide !== hidden) setHidden(shouldHide);
+    lastY.current = y;
+  });
 
   useEffect(() => {
     if (cart.count > prevCount.current) {
@@ -74,9 +83,11 @@ export function Header({ previews }: { previews: MenuPreviews }) {
 
   return (
     <>
-      <header
+      <motion.header
         className="sticky top-0 border-b border-line bg-paper/92 backdrop-blur-md supports-[backdrop-filter]:bg-paper/85"
         style={{ zIndex: "var(--z-header)" as unknown as number }}
+        animate={{ y: hidden && !reduce ? "-100%" : "0%" }}
+        transition={{ duration: 0.55, ease: [0.16, 1, 0.3, 1] }}
         onMouseLeave={scheduleClose}
       >
         <div className="container-site">
@@ -214,7 +225,7 @@ export function Header({ previews }: { previews: MenuPreviews }) {
             />
           )}
         </AnimatePresence>
-      </header>
+      </motion.header>
 
       <MobileMenu />
     </>

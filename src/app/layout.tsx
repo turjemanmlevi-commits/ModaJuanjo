@@ -8,6 +8,7 @@ import { CartProvider } from "@/components/cart/CartProvider";
 import { CartDrawer } from "@/components/cart/CartDrawer";
 import { SearchOverlay } from "@/components/layout/SearchOverlay";
 import { UIProvider } from "@/components/layout/UIProvider";
+import { SmoothScroll } from "@/components/ui/SmoothScroll";
 import { getAllCollections, getCollectionProducts } from "@/lib/catalog";
 import type { MenuPreviews } from "@/components/layout/Header";
 
@@ -87,6 +88,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         </a>
         <CartProvider>
           <UIProvider>
+            <SmoothScroll />
             <AnnouncementBar />
             <Header previews={previews} />
             <main id="main" className="flex-1">

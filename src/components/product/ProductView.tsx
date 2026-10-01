@@ -256,10 +256,6 @@ export function ProductView({
               dangerouslySetInnerHTML={{ __html: product.bodyHtml }}
             />
 
-            <p className="mt-6 text-sm text-ink-mute">
-              Over 50,000 women have already chosen us, with an average rating of 4.8 out of 5. Your happiness and your trust mean everything to us.
-            </p>
-
             <ProductAccordion />
           </div>
         </div>

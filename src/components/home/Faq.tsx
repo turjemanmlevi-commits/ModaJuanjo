@@ -4,7 +4,7 @@ import { useState } from "react";
 import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { Plus } from "@phosphor-icons/react";
 import type { Faq as FaqType } from "@/content/site";
-import { Reveal } from "@/components/ui/Reveal";
+import { Reveal, RevealWords } from "@/components/ui/Reveal";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
@@ -26,12 +26,12 @@ export function Faq({
     <section className="border-t border-line py-16 lg:py-24" aria-labelledby={`${id}-heading`}>
       <div className="container-site grid gap-10 lg:grid-cols-12">
         <div className="lg:col-span-4">
-          <Reveal>
-            <h2 id={`${id}-heading`} className="display-md">
-              {title}
-            </h2>
-            {aside && <div className="mt-6 text-ink-soft">{aside}</div>}
-          </Reveal>
+          <RevealWords id={`${id}-heading`} text={title} className="display-md" />
+          {aside && (
+            <Reveal delay={0.2}>
+              <div className="mt-6 text-ink-soft">{aside}</div>
+            </Reveal>
+          )}
         </div>
         <div className="lg:col-span-7 lg:col-start-6">
           <ul className="divide-y divide-line border-y border-line">
@@ -39,7 +39,13 @@ export function Faq({
               const isOpen = open === i;
               const panelId = `${id}-panel-${i}`;
               return (
-                <li key={item.q}>
+                <motion.li
+                  key={item.q}
+                  initial={reduce ? false : { opacity: 0, x: 24 }}
+                  whileInView={{ opacity: 1, x: 0 }}
+                  viewport={{ once: true, amount: 0.4 }}
+                  transition={{ duration: 0.7, delay: i * 0.07, ease: EASE }}
+                >
                   <button
                     type="button"
                     onClick={() => setOpen(isOpen ? null : i)}
@@ -75,7 +81,7 @@ export function Faq({
                       </motion.div>
                     )}
                   </AnimatePresence>
-                </li>
+                </motion.li>
               );
             })}
           </ul>
