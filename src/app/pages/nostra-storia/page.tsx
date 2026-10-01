@@ -5,6 +5,7 @@ import { ArrowRight } from "@phosphor-icons/react/dist/ssr";
 import { STORY_PAGE } from "@/content/site";
 import { Reveal, RevealLines, RevealWords } from "@/components/ui/Reveal";
 import { ImageReveal } from "@/components/ui/ImageReveal";
+import { asset } from "@/lib/format";
 
 export const metadata: Metadata = {
   title: "Our Story",
@@ -26,7 +27,7 @@ export default function StoryPage() {
           <div className="tray">
             <ImageReveal direction="right" style={{ aspectRatio: "1 / 1" }}>
               <Image
-                src="/images/boutique-front.jpg"
+                src={asset("/images/boutique-front.jpg")}
                 alt="Helen and Jess at the door of the MODESSAE boutique in Paddington"
                 fill
                 priority
@@ -54,7 +55,7 @@ export default function StoryPage() {
             <div className="tray rotate-[-1.5deg]">
               <ImageReveal direction="up" style={{ aspectRatio: "1 / 1" }}>
                 <Image
-                  src="/images/boutique-inside.jpg"
+                  src={asset("/images/boutique-inside.jpg")}
                   alt="Inside the boutique: Helen fitting sandals for a customer while Jess hangs a dress"
                   fill
                   sizes="(min-width: 1024px) 40vw, 100vw"

@@ -4,6 +4,7 @@ import Image from "next/image";
 import { motion, useReducedMotion } from "motion/react";
 import { Star } from "@phosphor-icons/react";
 import { PRODUCT_REVIEWS, REVIEWS_SUMMARY } from "@/content/site";
+import { asset } from "@/lib/format";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
@@ -40,7 +41,7 @@ export function ProductReviews() {
           >
             <div className="relative aspect-square overflow-hidden">
               <Image
-                src={r.image}
+                src={asset(r.image)}
                 alt={`Photo shared by ${r.name} from ${r.city}`}
                 fill
                 sizes="(min-width: 1280px) 19vw, (min-width: 1024px) 23vw, (min-width: 640px) 46vw, 78vw"

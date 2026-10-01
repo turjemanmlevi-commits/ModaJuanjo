@@ -40,3 +40,9 @@ export function splitTitle(title: string): { name: string; rest: string } {
 export function plural(n: number, one: string, many: string): string {
   return n === 1 ? one : many;
 }
+
+/** Prefixes a public asset path with the deployment base path (needed for static hosting under a sub-path). */
+export function asset(path: string): string {
+  const base = process.env.NEXT_PUBLIC_BASE_PATH || "";
+  return path.startsWith("/") ? base + path : path;
+}

@@ -3,6 +3,7 @@ import Link from "next/link";
 import { FOOTER_LINKS, STORE } from "@/lib/menu";
 import { CONTACT } from "@/content/site";
 import { PaymentIcons } from "./PaymentIcons";
+import { asset } from "@/lib/format";
 
 export function Footer() {
   const year = new Date().getFullYear();
@@ -10,7 +11,7 @@ export function Footer() {
     <footer className="border-t border-line bg-beige-light">
       <div className="container-site grid gap-12 pb-12 pt-16 lg:grid-cols-12 lg:gap-8 lg:pb-14 lg:pt-20">
         <div className="lg:col-span-5">
-          <Image src="/images/logo.png" alt="MODESSAE" width={510} height={71} className="h-6 w-auto" />
+          <Image src={asset("/images/logo.png")} alt="MODESSAE" width={510} height={71} className="h-6 w-auto" />
           <p className="mt-6 max-w-sm text-ink-soft">
             Since 2012, pieces chosen for women who work, go out and live full lives. After fourteen years,
             everything we have left is now 50% off.

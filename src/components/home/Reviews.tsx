@@ -5,6 +5,7 @@ import { motion, useReducedMotion } from "motion/react";
 import { Star } from "@phosphor-icons/react";
 import { REVIEWS, REVIEWS_SUMMARY } from "@/content/site";
 import { RevealWords } from "@/components/ui/Reveal";
+import { asset } from "@/lib/format";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
@@ -48,7 +49,7 @@ export function Reviews() {
           >
             <div className={`relative overflow-hidden ${i % 3 === 1 ? "aspect-[4/5]" : "aspect-square"}`}>
               <Image
-                src={r.image}
+                src={asset(r.image)}
                 alt={`Photo shared by ${r.name} from ${r.city}`}
                 fill
                 sizes="(min-width: 1024px) 30vw, 78vw"

@@ -7,6 +7,7 @@ import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import { CaretDown, MagnifyingGlass, User, X } from "@phosphor-icons/react";
 import { MAIN_MENU, STORE } from "@/lib/menu";
 import { useEscape, useScrollLock, useUI } from "./UIProvider";
+import { asset } from "@/lib/format";
 
 export function MobileMenu() {
   const ui = useUI();
@@ -31,7 +32,7 @@ export function MobileMenu() {
         >
           <div className="flex h-14 items-center justify-between border-b border-line px-4">
             <Link href="/" onClick={ui.closeMenu} aria-label="MODESSAE home">
-              <Image src="/images/logo.png" alt="MODESSAE" width={510} height={71} className="h-[18px] w-auto" />
+              <Image src={asset("/images/logo.png")} alt="MODESSAE" width={510} height={71} className="h-[18px] w-auto" />
             </Link>
             <button
               type="button"

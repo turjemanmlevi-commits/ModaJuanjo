@@ -6,6 +6,7 @@ import { motion, useReducedMotion, useScroll, useTransform } from "motion/react"
 import { FAREWELL } from "@/content/site";
 import { Reveal, RevealWords } from "@/components/ui/Reveal";
 import { ImageReveal } from "@/components/ui/ImageReveal";
+import { asset } from "@/lib/format";
 
 export function Farewell() {
   const ref = useRef<HTMLElement>(null);
@@ -22,7 +23,7 @@ export function Farewell() {
             <motion.div style={{ y: backY }} className="tray w-[78%] rotate-[-2deg]">
               <ImageReveal direction="left" style={{ aspectRatio: "1 / 1" }}>
                 <Image
-                  src="/images/boutique-front.jpg"
+                  src={asset("/images/boutique-front.jpg")}
                   alt="Helen and Jess at the door of the MODESSAE boutique"
                   fill
                   sizes="(min-width: 1024px) 38vw, 80vw"
@@ -36,7 +37,7 @@ export function Farewell() {
             >
               <ImageReveal direction="up" delay={0.25} style={{ aspectRatio: "1 / 1" }}>
                 <Image
-                  src="/images/boutique-inside.jpg"
+                  src={asset("/images/boutique-inside.jpg")}
                   alt="Inside the boutique: Helen helping a customer try on sandals while Jess hangs a dress"
                   fill
                   sizes="(min-width: 1024px) 30vw, 60vw"

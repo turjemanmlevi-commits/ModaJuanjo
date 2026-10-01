@@ -11,6 +11,7 @@ import { useCart } from "@/components/cart/CartProvider";
 import { useUI } from "./UIProvider";
 import { MegaMenuPanel, type MenuPreview } from "./MegaMenu";
 import { MobileMenu } from "./MobileMenu";
+import { asset } from "@/lib/format";
 
 export type MenuPreviews = Record<string, MenuPreview>;
 
@@ -122,7 +123,7 @@ export function Header({ previews }: { previews: MenuPreviews }) {
 
             <Link href="/" aria-label="MODESSAE home" className="block px-2">
               <Image
-                src="/images/logo.png"
+                src={asset("/images/logo.png")}
                 alt="MODESSAE"
                 width={510}
                 height={71}

@@ -7,6 +7,7 @@ import { motion, useReducedMotion, useScroll, useTransform } from "motion/react"
 import { ArrowRight } from "@phosphor-icons/react";
 import { HERO } from "@/content/site";
 import { Magnetic } from "@/components/ui/Magnetic";
+import { asset } from "@/lib/format";
 
 const EASE = [0.16, 1, 0.3, 1] as const;
 
@@ -94,7 +95,7 @@ export function Hero() {
             transition={{ duration: 2, ease: EASE }}
           >
             <Image
-              src="/images/hero.jpg"
+              src={asset("/images/hero.jpg")}
               alt={HERO.imageAlt}
               fill
               priority

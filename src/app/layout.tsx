@@ -11,6 +11,7 @@ import { UIProvider } from "@/components/layout/UIProvider";
 import { SmoothScroll } from "@/components/ui/SmoothScroll";
 import { getAllCollections, getCollectionProducts } from "@/lib/catalog";
 import type { MenuPreviews } from "@/components/layout/Header";
+import { asset } from "@/lib/format";
 
 const tenor = localFont({
   src: "../../public/fonts/TenorSans-Regular.woff2",
@@ -41,7 +42,7 @@ export const metadata: Metadata = {
     siteName: "MODESSAE",
     type: "website",
     locale: "en_AU",
-    images: [{ url: "/images/hero.jpg", width: 2000, height: 1493, alt: "Helen and Jess in the MODESSAE boutique" }],
+    images: [{ url: asset("/images/hero.jpg"), width: 2000, height: 1493, alt: "Helen and Jess in the MODESSAE boutique" }],
   },
   twitter: { card: "summary_large_image" },
 };
