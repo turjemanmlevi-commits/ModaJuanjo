@@ -18,7 +18,7 @@ let pending: Promise<SearchEntry[]> | null = null;
 function loadIndex(): Promise<SearchEntry[]> {
   if (cache) return Promise.resolve(cache);
   if (!pending) {
-    pending = fetch("/search-index.json")
+    pending = fetch(`${process.env.NEXT_PUBLIC_BASE_PATH || ""}/search-index.json`)
       .then((r) => r.json())
       .then((data: SearchEntry[]) => {
         cache = data;

@@ -42,3 +42,4 @@ real de Shopify mediante un permalink de carrito (`modessae.com/cart/ID:QTY`).
   secciones de portada, producto, colección
 - `src/content/site.ts` – todos los textos de la tienda
 - `src/lib` – acceso al catálogo, menú, formato de precios, búsqueda
+# GitHub Pages: STATIC_EXPORT=1 NEXT_PUBLIC_BASE_PATH=/ModaJuanjo npm run build -> ./out
